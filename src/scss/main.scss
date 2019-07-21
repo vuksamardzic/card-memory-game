@@ -1,0 +1,31 @@
+@import 'base/reset';
+@import 'components/card';
+
+body {
+  background: #fff url('../img/pattern.png');
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 2em;
+  margin: 0.6em 0;
+}
+
+.score-panel {
+  width: 345px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+
+  .restart {
+    cursor: pointer;
+  }
+}
