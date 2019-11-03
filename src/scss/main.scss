@@ -1,5 +1,6 @@
 @import 'base/reset';
 @import 'components/card';
+@import 'components/dialog';
 
 body {
   background: #fff url('../img/pattern.png');
@@ -24,8 +25,8 @@ h1 {
   margin-bottom: 10px;
   display: flex;
   justify-content: space-between;
+}
 
-  .restart {
-    cursor: pointer;
-  }
+.pointer {
+  cursor: pointer;
 }

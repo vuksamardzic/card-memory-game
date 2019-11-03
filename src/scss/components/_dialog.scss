@@ -1,0 +1,36 @@
+.victory-dialog {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 100%;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+
+  &.active {
+    top: 0;
+
+    .victory-text {
+      top: 50%;
+    }
+  }
+
+  .victory-text {
+    background: #fff url('../img/pattern.png');
+    border-radius: 5px;
+    padding: 30px 100px;
+    box-shadow: 12px 15px 20px 0 rgba(46, 61, 73, 0.5);
+    position: absolute;
+    left: 50%;
+    top: 100vh;
+    transform: translate(-50%, -50%);
+    transition: 0.3s;
+
+    p {
+      margin-bottom: 0.5rem;
+
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+    }
+  }
+}

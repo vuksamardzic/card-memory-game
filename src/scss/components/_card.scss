@@ -30,13 +30,14 @@
       transform: rotateY(0);
       background: #02b3e4;
       cursor: default;
-      font-size: 30px;
+      font-size: 40px;
     }
 
     &.match {
-      cursor: default;
+      transform: rotateY(0);
       background: #02ccba;
-      font-size: 30px;
+      cursor: default;
+      font-size: 40px;
     }
   }
 }
